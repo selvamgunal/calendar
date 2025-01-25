@@ -1,0 +1,37 @@
+  .year-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+  .year-cell {
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    width: 25%;
+    height: 200px;
+    text-align: center;
+    background-color: #f9f9f9;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 500;
+  }
+  .year-cell-current-month{
+    display: flex; 
+    align-items: center; 
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    width: 25%;
+    height: 200px;
+    text-align: center;
+    background-color: #f9f9f9;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 500;
+    flex-direction: column !important;
+    justify-content: space-evenly !important;
+  }

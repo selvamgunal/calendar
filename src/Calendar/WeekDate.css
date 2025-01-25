@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+.week-grid {
+  display: flex;
+  width: 100%;
+}
+
+.week-time-column {
+  width: 100px; 
+  display: flex;
+  flex-direction: column;
+  margin-top: -12px;
+}
+
+.week-time-cell {
+  border-bottom: none !important;
+  height: 100px;
+}
+
+.week-days-columns {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.week-header-row {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+
+.week-header-cell, .week-cell {
+  height: 100px; /* Same height */
+  flex-grow: 1; /* Ensure both cells stretch evenly */
+  border: 1px solid #e6e6e6;
+  max-width: 234px;
+}
+
+.week-header-cell {
+  background-color: #f1f1f1; 
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  width: 100%;
+}
+
+.week-row {
+  display: flex;
+}

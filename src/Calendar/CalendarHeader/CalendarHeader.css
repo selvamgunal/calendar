@@ -1,0 +1,29 @@
+.underline {
+    text-decoration: underline;
+    font-weight: bold;
+    text-decoration-color: blue;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 3px;
+    color: black !important;
+}
+
+.flex-content {
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    margin-left: 45px;
+}
+.datetype-align{
+    padding-right: 15px;
+    color: grey;
+}
+.calendor-header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 25px 15px;
+}
+.date-align{
+    font-size: 22px;
+    font-weight: 500;
+}

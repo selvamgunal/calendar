@@ -1,0 +1,54 @@
+.popup-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .popup-container {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    max-width: 800px;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .popup-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin-right: 20px;
+  }
+  
+  .meet-icon {
+    font-size: 100px;
+    color: #4285f4;
+  }
+  
+  .join-button {
+    margin-top: 20px;
+  }
+  
+  .popup-right {
+    width: 70%;
+  }
+  
+  .meeting-title {
+    font-size: 22px;
+    padding: 12px;
+    font-weight: 600;
+  }
+  
+  .meeting-info {
+    padding: 10px;
+    font-size: 20px;
+  }
+  

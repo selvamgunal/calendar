@@ -1,0 +1,50 @@
+/* MeetingBox.css */
+.meeting-box {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    max-width: 300px;
+    height: 95px;
+    cursor: pointer;
+  }
+ .blue-bg{
+    background-color: #0068bd ;
+    width: 5%;
+ }
+ .content-box{
+    background-color:#ceebfb;
+    width: 95%;
+    text-align: left;
+    padding: 8px;
+ }
+ .meeting-content{
+    display: flex;
+    flex-direction: row;
+ }
+ .meet-info{
+    padding: 2px;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+ }
+ .meeting-content {
+    position: relative; /* This allows positioning of elements inside it */
+  }
+  
+  .circle {
+    position: absolute;
+    top: -6px; /* Distance from the top */
+    right: 0px; /* Distance from the right */
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+    background-color: rgb(255, 255, 255); /* Blue background color */
+    border: 1px solid #0068bd;
+    color: #0068bd;
+    border-radius: 50%; /* Makes the div round */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+  }
+  
