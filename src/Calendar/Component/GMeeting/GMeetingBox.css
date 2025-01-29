@@ -51,4 +51,10 @@
     padding: 10px;
     font-size: 20px;
   }
+  .label{
+    font-weight: 500;
+  }
+  .value{
+    font-weight: 400;
+  }
   
